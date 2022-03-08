@@ -1,3 +1,28 @@
+/* Body */
+body {
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Inconsolata", sans-serif;
+}
 
+.page-title {
+  font-size: 35px;
+  margin-top: 30px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.page-subtitle {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.rules-title {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBQ0E7RUFDSSxrQkFBQTtFQUNBLDhCQUFBO1VBQUEsc0JBQUE7RUFDQSxzQkFBQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLGNBQUE7RUFDQSxVQUFBO0VBQ0Esc0NBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7RUFDQSxnQkFBQTtBQ0NKOztBRENBO0VBQ0ksbUJBQUE7RUFDQSxlQUFBO0FDRUo7O0FEQ0E7RUFDSSxlQUFBO0FDRUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

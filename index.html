@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Signika:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="splash">
+        <div class="container">
+            <h1 class="page-title">Papier - Kamień - Nożyce</h1>
+            <h2 class="page-subtitle">Zagraj z nami w popularną grę!</h2>
+        </div>    
+    </header>
+    <div class="rules">
+        <div class="container">
+            <h3 class="rules-title">Zasady gry:</h3>
+            <p>Gra składa się z kolejnych tur. W każdej turze obydwaj gracze, na umówiony sygnał, szybko wystawiają przed siebie dłoń, pokazującą symbol papieru, kamienia lub nożyc. Gracz, który pokazał silniejszy symbol, otrzymuje jeden punkt. W przypadku pokazania dwóch takich samych symboli następuje remis – punktu brak.<br><br>Oto hierarchia symboli:<br>
+               - nożyce są silniejsze od papieru, ponieważ go tną,<br>
+               - kamień jest silniejszy od nożyc, ponieważ je tępi,<br>
+               - papier jest silniejszy od kamienia, ponieważ go owija.<br><br>
+                Gracz, który pierwszy uzyska umówioną wcześniej ilość punktów, wygrywa partię.<br></p>
+        </div>
+    </div>
 	<div class="container">
 		<div id="buttons">
             <button id="button-rock">Kamień</button>
