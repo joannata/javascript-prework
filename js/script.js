@@ -6,7 +6,6 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-  let playerInput;
 
   function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
@@ -34,7 +33,7 @@ function buttonClicked(argButtonName) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   }
 
-  console.log('wybór ruchu gracza to: ' + playerInput);
+  
   const playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
   const randomNumber = Math.floor(Math.random() * 3 + 1);
